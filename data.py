@@ -1,7 +1,13 @@
-day_of_week = input("what day is it? ")
-if day_of_week == "Friday":
-    print("correct")
-if day_of_week == "friday":
-    print("ok")
+number = input("Is this number odd or even?")
+if number == "0":
+    print("even")
+elif number == "2":
+    print("even")
+elif number == "4":
+    print("even")
+elif number == "6":
+    print("even")
+elif number == "8":
+    print("even")
 else:
-    print("incorrect")
+    print("odd")
