@@ -1,11 +1,14 @@
-tipvalue = input("How was your service today?")
-if tipvalue == "bad":
-    print("0%")
-elif tipvalue == "okay":
-    print ("10%")
-elif tipvalue == "good":
-    print("15%")
-elif tipvalue == "awesome":
-    print("25%")
+number = input("How much would you like to tip?")
+if number == "0%":
+    print ("1")
+elif number == "25%":
+    print ("1.25")
+elif number == "5%":
+    print ("1.05")
+elif number == "10%":
+    print ("1.10")
 else:
-    print ("5%")
+    print ("1")
+
+subtotal = input("How much have you paid?")
+
