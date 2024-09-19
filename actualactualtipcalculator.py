@@ -4,7 +4,8 @@ tipvalue = (input("How was your service today?"))
 
 if tipvalue == "bad":
     badtotal = basevalue*1.05
-    print ("Your total is" + " " + str(badtotal))
+    badtotalr = round(badtotal, 2)
+    print ("Your total is" + " " + str(badtotalr))
 elif tipvalue == "okay":
     okaytotal = basevalue*1.1
     print ("Your total is" + " " + str(okaytotal))
